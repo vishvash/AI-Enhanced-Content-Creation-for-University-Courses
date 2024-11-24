@@ -71,8 +71,7 @@ Gemini is an intelligent tool designed to process PDF files, extract meaningful 
 
 To run this project locally, you need to install the required dependencies. You can do this by running:
 
-```bash
-pip install -r requirements.txt
-
+    ```bash
+    pip install -r requirements.txt
 
 [![Video Title](https://img.youtube.com/vi/H6_8S2heuiI/0.jpg)](https://www.youtube.com/watch?v=H6_8S2heuiI)

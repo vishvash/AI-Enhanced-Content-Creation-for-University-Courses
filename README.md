@@ -37,59 +37,42 @@ Gemini is an intelligent tool designed to process PDF files, extract meaningful 
    git clone https://github.com/vishvash/AI-Enhanced-Content-Creation-for-University-Courses.git
    cd AI-Enhanced-Content-Creation-for-University-Courses
 
-Install Dependencies:
+2. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
 
+3. **Run the Application:**
+
+   ```bash
+   streamlit run app.py
+
+4. **Access the App:**
+
+	Open your browser and navigate to http://localhost:8501.
+
+## Features
+
+- **Upload PDFs**: Easily upload one or more PDF files from the sidebar.
+- **Generate Questions**: 
+  - Choose between different question formats (MCQ, True/False, etc.).
+  - Option to generate questions with or without answers.
+  - Select the number of questions and optionally provide a topic.
+- **View Questions and Answers**: 
+  - Expandable sections to view questions and answers.
+  - Use the **Explain** button to get in-depth explanations for the answers.
+- **Download Q&A**: 
+  - Download individual or all questions and answers in DOCX or PDF format.
+- **Ask Questions**: 
+  - Use the chatbox to ask specific questions about the PDF content and get detailed AI-powered answers.
+
+## Installation
+
+### Requirements
+
+To run this project locally, you need to install the required dependencies. You can do this by running:
+
+```bash
 pip install -r requirements.txt
 
-Run the Application:
-
-streamlit run app.py
-
-Access the App:
-
-Open your browser and navigate to http://localhost:8501.
-Usage
-
-Upload PDFs:
-
-Use the sidebar to upload one or more PDF files.
-Click Submit & Process to extract text.
-
-Generate Questions:
-
-Choose question formats (e.g., MCQ, True/False).
-Decide between With Answers or Without Answers.
-Select the number of questions and optionally provide a topic.
-Click Generate Questions.
-View Questions and Answers:
-
-Expandable sections allow you to review detailed answers.
-For Detailed Answers, use the Explain button to generate in-depth explanations.
-
-Download Q&A:
-
-Download individual or all selected questions in DOCX or PDF formats.
-
-Ask Questions:
-
-Use the chatbox to ask questions about the PDF content.
-
-Home Screen
-Upload and process PDFs easily with the intuitive interface.
-
-Question Generator
-Generate questions in various formats with or without answers.
-
-Chatbox
-Ask specific questions and get detailed AI-powered answers.
-
-Dependencies
-Streamlit: For building the web application interface.
-PyPDF2: For extracting text from PDF files.
-FPDF: For creating downloadable PDF files.
-Python-docx: For generating downloadable Word documents.
-
-Install all dependencies using:
-pip install -r requirements.txt
 
 [![Video Title](https://img.youtube.com/vi/H6_8S2heuiI/0.jpg)](https://www.youtube.com/watch?v=H6_8S2heuiI)

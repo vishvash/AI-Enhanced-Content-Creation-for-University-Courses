@@ -46,32 +46,4 @@ Gemini is an intelligent tool designed to process PDF files, extract meaningful 
    ```bash
    streamlit run app.py
 
-4. **Access the App:**
-
-	Open your browser and navigate to http://localhost:8501.
-
-## Features
-
-- **Upload PDFs**: Easily upload one or more PDF files from the sidebar.
-- **Generate Questions**: 
-  - Choose between different question formats (MCQ, True/False, etc.).
-  - Option to generate questions with or without answers.
-  - Select the number of questions and optionally provide a topic.
-- **View Questions and Answers**: 
-  - Expandable sections to view questions and answers.
-  - Use the **Explain** button to get in-depth explanations for the answers.
-- **Download Q&A**: 
-  - Download individual or all questions and answers in DOCX or PDF format.
-- **Ask Questions**: 
-  - Use the chatbox to ask specific questions about the PDF content and get detailed AI-powered answers.
-
-## Installation
-
-### Requirements
-
-To run this project locally, you need to install the required dependencies. You can do this by running:
-
-    ```bash
-    pip install -r requirements.txt
-
 [![Video Title](https://img.youtube.com/vi/H6_8S2heuiI/0.jpg)](https://www.youtube.com/watch?v=H6_8S2heuiI)
